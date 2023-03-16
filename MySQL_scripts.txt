@@ -1,0 +1,15 @@
+CREATE TABLE `items` (
+  `id` bigint NOT NULL,
+  `categoryl1` varchar(255) DEFAULT NULL,
+  `categoryl2` varchar(255) DEFAULT NULL,
+  `enabled` varchar(255) DEFAULT NULL,
+  `item_code` varchar(255) DEFAULT NULL,
+  `item_name` varchar(255) DEFAULT NULL,
+  `mrp_price` varchar(255) DEFAULT NULL,
+  `parent_code` varchar(255) DEFAULT NULL,
+  `size` varchar(255) DEFAULT NULL,
+  `upc` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+
+INSERT INTO `items` VALUES (8402,'TOP','PANTIES','Yes','AGNES','AGNES','100','','XS','AGNES'),(8403,'TOP','PANTIES','Yes','AGNES-XS','AGNES','120','AGNES','XS','AGNES-XS'),(8404,'TOP','PANTIES','No','AGNES-S','AGNES','120','AGNES-XS','S','AGNES-S'),(8405,'TOP','PANTIES','Y','AGNES-M','AGNES','120','AGNES','M','AGNES-M'),(8406,'TOP','PANTIES','N','AGNES-L','AGNES','120','AGNES','L','AGNES-L'),(8407,'TOP','PANTIES','Yes','AGNES-XL','AGNES','105','AGNES-XL','XL','AGNES-XL'),(8408,'TOP','PANTIES','Yes','AGNES-XXL','AGNES','120','AGNES','XXL','AGNES-XXL'),(8409,'TOP','PANTS','Yes','AIKE','AIKE','200','','','AIKE'),(8410,'TOP','PANTS','Yes','AIKE-S','AIKE','200','AIKE','S','AIKE-S'),(8411,'TOP','PANTS','Yes','AIKE-M','AIKE','200','AIKE','M','AIKE-M')
