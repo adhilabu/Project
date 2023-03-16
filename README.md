@@ -25,3 +25,7 @@ Steps
 5 - click yes to find the active and non-active products in db.
 6 - press yes to find the average product price per Category L1 and Category L2.
 ---------------------------------------
+TOOLS:
+Spring Tool Suite 4 Version: 4.17.2.RELEASE
+MySQL workbench 8.0.32
+jdk 17
